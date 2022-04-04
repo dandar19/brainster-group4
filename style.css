@@ -1,0 +1,113 @@
+/* 
+
+DOCUMENT SPECIFICATIONS
+
+body color:                 #9c9c9c
+white color:                #fff
+lightgrey color:            #f4f4f4
+black color:                #000
+headings colors:            #444
+hover colors (red):         #ef6480
+input border colors footer: #d9d9d9
+
+body font family (paragraphs): monospace
+headings font family:          fantasy */
+
+/* GLOBAL SETTINGS */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* *** UTILITY CLASSES ****** */
+
+/* TEXT COLORS */
+
+.text-white {
+  color: #fff;
+}
+
+.text-gray {
+  color: #444;
+}
+
+/* TEXT FONT */
+
+.text-font {
+  font-family: monospace;
+}
+
+.text-font-headings {
+  font-family: fantasy;
+}
+
+/* TEXT MISCELLAENOUS */
+
+.text-center {
+  text-align: center;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+
+/* BACKGROUND COLORS */
+
+.background-black {
+  background-color: #000;
+}
+
+.backgroud-black {
+  background-color: #fff;
+}
+
+.background-grey {
+  background-color: #f4f4f4;
+
+/* CONTAINERS */
+
+.container-md {
+  width: 75%;
+}
+
+/* BORDERS */
+
+.border-transparent {
+  border: 1px solid transparent;
+}
+
+.border-black {
+  border: 1px solid transparent;
+}
+
+.border-rounded {
+  border-radius: 5px;
+}
+
+/* BUTTONS */
+
+.button-cta {
+  
+}
+
+.button-form {
+  
+}
+
+/* ICONS */
+
+.icon-hover {
+  background-color: #ef6480;
+}
+
+.button-cta:hover,
+.button-form:hover {
+  border: 1px #ef6480 solid; 
+}
+
+/*  */
