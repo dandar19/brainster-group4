@@ -22,7 +22,7 @@ html{
   font-size: 16px;
 }
 body {
-  margin: 0;
+  margin: 0; 
 }
 
 /* *** UTILITY CLASSES ****** */
@@ -145,6 +145,16 @@ font-size: 1rem;
 .button-form:hover {
   border: 1px #ef6480 solid; 
 }
+
+/* HOVER TRANSITION */
+.transition{
+  transition: 0.7s;}
+
+.transition:hover{
+  border-color: #ef6480;
+  color: #ef6480;
+}  
+
 
 /* PADDING */
 .padding{
